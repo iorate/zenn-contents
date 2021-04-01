@@ -1,0 +1,11 @@
+{
+  "name": "zenn-contents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iorate/zenn-contents.git",
+  "author": "iorate <iorate@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "zenn-cli": "^0.1.79"
+  }
+}
