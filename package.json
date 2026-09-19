@@ -1,11 +1,18 @@
 {
   "name": "zenn-contents",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/iorate/zenn-contents.git",
-  "author": "iorate <iorate@users.noreply.github.com>",
+  "private": true,
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "zenn-cli": "^0.1.79"
+    "zenn-cli": "^0.5.4"
+  },
+  "packageManager": "pnpm@12.4.2",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.2",
+      "onFail": "download"
+    }
   }
 }
